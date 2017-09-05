@@ -63,7 +63,7 @@ const propTypes = {
   /**
    * Sets the direction of the Overlay.
    */
-  placement: PropTypes.oneOf(['top', 'right', 'bottom', 'left']),
+  placement: PropTypes.oneOf(['top', 'right', 'bottom', 'left', 'auto']),
 };
 
 const defaultProps = {
